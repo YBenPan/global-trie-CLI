@@ -6,7 +6,6 @@ import { del } from './del';
 import { search } from './search';
 import { autocomplete } from './autocomplete';
 import { print_trie } from './print_trie';
-import { init } from './init';
 
 // This function checks if the "keyword" option is missing. 
 const validate = (argsObj, cmd) => {    
@@ -49,10 +48,6 @@ export async function cli(args) {
             print_trie(argsObj); 
             break;
 
-        case 'init': 
-            init(argsObj); 
-            break;
-        
         default: 
             console.error(`"${cmd}" is not a command! Use ${chalk.blueBright('trie help')} to see a list of commands`)
     }
