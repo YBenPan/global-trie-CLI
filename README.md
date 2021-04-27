@@ -10,7 +10,7 @@ Online trie system created with AWS Lambda
 * [Lambda](Lambda)
 
 ## Installation
-To install the program, `npm` is required: https://www.npmjs.com/get-npm
+To install the program, `npm` is required: https://www.npmjs.com/get-npm \
 Command: ```npm install global-trie-CLI```
 
 ## Usage
@@ -37,7 +37,7 @@ Options:
 
 A REST API Gateway is used to send and receive data to/from Lambda. The URL is `https://cjql8lovja.execute-api.us-east-2.amazonaws.com/trie_stage/lambda`. The parameters `type` and `keyword` are required when invoking the API. \
 To invoke the API, use the `curl` command. Note that the output is raw and not parsed yet. \
-Example: 
+Example: \
 Add: `curl -X GET "https://cjql8lovja.execute-api.us-east-2.amazonaws.com/trie_stage/lambda?type=add&keyword=apple"` \
 Print: `curl -X GET "https://cjql8lovja.execute-api.us-east-2.amazonaws.com/trie_stage/lambda?type=print&keyword=null"`
 
