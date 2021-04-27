@@ -2,12 +2,6 @@
 
 Online trie system created with AWS Lambda
 
-## Table of Contents
-* [Installation](Installation)
-* [Usage](Usage)
-* [Technologies](Technologies)
-* [Client-Lambda Interaction](Client-Lambda-Interaction)
-* [Lambda](Lambda)
 
 ## Installation
 To install the program, `npm` is required: https://www.npmjs.com/get-npm \
