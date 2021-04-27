@@ -1,6 +1,6 @@
 {
   "name": "global-trie-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Online trie system",
   "main": "./index.js",
   "bin": {
@@ -27,5 +27,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YBenPan/global-trie-cli.git"
-  } 
+  }
 }
