@@ -1,0 +1,15 @@
++-w
+  +-wo
+    +-wor
+      +-word
+  +-wa
+    +-war
+      +-ward
++-a
+  +-ad
+    +-add
++-f
+  +-fr
+    +-fre
+      +-freq
+
