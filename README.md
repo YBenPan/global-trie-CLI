@@ -5,7 +5,7 @@ Online trie system created with AWS Lambda
 
 ## Installation
 To install the program, `npm` is required: https://www.npmjs.com/get-npm \
-Command: ```npm install global-trie-cli```
+Command: ```npm install -g global-trie-cli```
 
 ## Usage
 
