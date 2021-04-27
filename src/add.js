@@ -5,11 +5,12 @@ const api_str = 'https://cjql8lovja.execute-api.us-east-2.amazonaws.com/trie_sta
 
 const getAdd = (args) => {
     let arg_str = api_str + '?type=1&keyword=' + args['keyword']
+    let tmp;
     axios
         .get(arg_str)
         .then(function (response) {
             let tmp = response['data']['body']
-            console.log(tmp)
+            console.log(tmp);
         })
         .catch(error => console.log(error['response']['data']['message'])); 
 }

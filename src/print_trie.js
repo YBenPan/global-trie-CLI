@@ -9,7 +9,7 @@ const getPrint = (args) => {
         .get(arg_str)
         .then(function (response) {
             let tmp = response['data']['body']
-            console.log(tmp)
+            console.log(tmp);
         })
         .catch(error => console.log(error['response']['data']['message'])); 
 }

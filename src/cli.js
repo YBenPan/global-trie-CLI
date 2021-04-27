@@ -7,8 +7,9 @@ import { search } from './search';
 import { autocomplete } from './autocomplete';
 import { print_trie } from './print_trie';
 
-const validate = (argsObj, cmd) => {
-    if (cmd == 'print') return false;
+// This function checks if the "keyword" option is missing. 
+const validate = (argsObj, cmd) => {    
+    if (cmd == 'print' || cmd == 'help') return false;
     if (!('keyword' in argsObj)) {
         console.error(`\nMissing keyword. Please use \n"trie ${cmd} --keyword=${chalk.blueBright('keyword')}"\n`);
         return true;
@@ -17,9 +18,8 @@ const validate = (argsObj, cmd) => {
 }
 
 export async function cli(args) {
-    const argsObj = minimist(args.slice(2));
+    const argsObj = minimist(args.slice(2));    // minimist parses the argument
     let cmd = argsObj._[0] || 'help'; 
-    // console.log(argsObj['keyword']);
     let res = validate(argsObj, cmd); 
     if (res == true) return; 
     switch (cmd) {
