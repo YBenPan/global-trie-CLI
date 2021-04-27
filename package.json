@@ -2,7 +2,7 @@
   "name": "global-trie-cli",
   "version": "1.0.1",
   "description": "Online trie system",
-  "main": "./index.js",
+  "main": "index.js",
   "bin": {
     "trie": "./index.js"
   },

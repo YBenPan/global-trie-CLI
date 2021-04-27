@@ -4,7 +4,7 @@ import chalk from 'chalk';
 const api_str = 'https://cjql8lovja.execute-api.us-east-2.amazonaws.com/trie_stage/lambda'
 
 const getPrint = (args) => {
-    let arg_str = api_str + '?type=5&keyword=000';
+    let arg_str = api_str + '?type=print&keyword=000';
     axios
         .get(arg_str)
         .then(function (response) {

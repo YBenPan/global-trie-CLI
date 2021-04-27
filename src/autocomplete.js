@@ -5,7 +5,7 @@ const api_str = 'https://cjql8lovja.execute-api.us-east-2.amazonaws.com/trie_sta
 
 const getAutocomplete = (args) => {
     
-    let arg_str = api_str + '?type=4&keyword=' + args['keyword']
+    let arg_str = api_str + '?type=autocomplete&keyword=' + args['keyword']
     axios
         .get(arg_str)
         .then(function (response) {
