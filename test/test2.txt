@@ -1,15 +1,26 @@
-+-w
-  +-wo
-    +-wor
-      +-word
-  +-wa
-    +-war
-      +-ward
-+-a
-  +-ad
-    +-add
+Addition Successful!
+Addition Successful!
+True
+Addition Successful!
+Deletion Successful!
+False
+Addition Successful!
+Addition Successful!
++-o
+  +-on
+    +-one
++-t
+  +-tw
+    +-two
 +-f
-  +-fr
-    +-fre
-      +-freq
+  +-fo
+    +-fou
+      +-four
+  +-fi
+    +-fiv
+      +-five
 
+Deletion Successful!
+Deletion Successful!
+Deletion Successful!
+Deletion Successful!

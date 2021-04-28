@@ -1,19 +1,26 @@
-ERROR: Keyword not found!
 Addition Successful!
 Addition Successful!
+True
 Addition Successful!
+Deletion Successful!
 False
-Deletion Successful!
 Addition Successful!
-Deletion Successful!
-Prefix not found!
-+-l
-  +-lo
-    +-loo
-      +-look
+Addition Successful!
 +-o
   +-on
     +-one
++-t
+  +-tw
+    +-two
++-f
+  +-fo
+    +-fou
+      +-four
+  +-fi
+    +-fiv
+      +-five
 
+Deletion Successful!
+Deletion Successful!
 Deletion Successful!
 Deletion Successful!

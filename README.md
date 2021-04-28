@@ -39,6 +39,11 @@ Print: `curl -X GET "https://cjql8lovja.execute-api.us-east-2.amazonaws.com/trie
 Lambda receives the arguments `type` and `keyword` from the API Gateway. Then it retrieves the `trie` pickle object from `trie-storage` bucket in Amazon S3 and "unpickles" it. (If the object does not exist, then Lambda will initialize one). \
 Based on the `type` argument, Lambda handles the input and updates the tree if necessary through the `decision` function. Finally, Lambda "pickles" the `trie` object and stores it in the S3 bucket. It returns the output message to REST API which then sends it to the client. 
 
+## Room for Improvement
+I did not have time to implement the following features, but here are my ideas: 
+1. Use a queue to process inputs from different clients. Amazon has a feature called Simple Queue Service. We can connect the API Gateway to a SQS First-In-First-Out queue and then from SQS to Lambda. By doing this, we make sure Lambda only processes one request at a time and maintain the integrity of the order of requests.  
+2. To optimize the autocomplete feature and make it more realistic, we can keep a hash table in each node that stores the ten most "popular" children. Popularity is determined by the number of times the word has been added. To obtain a list of autocomplete suggestions, we can simply output the contents of the hashtable. 
+3. We can group a client's requests together and send them to Lambda together. This reduces the number of times we invoke the Lambda function, thus saving time. 
 
 
 

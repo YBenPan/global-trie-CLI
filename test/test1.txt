@@ -1,27 +1,19 @@
-Addition Successful!
-Addition Successful!
-Addition Successful!
 ERROR: Keyword not found!
+Addition Successful!
+Addition Successful!
+Addition Successful!
+False
 Deletion Successful!
-+-w
-  +-wo
-    +-wor
-      +-word
-  +-wa
-    +-war
-      +-ward
-+-a
-  +-ad
-    +-add
-+-f
-  +-fr
-    +-fre
-      +-freq
-+-s
-  +-sm
-    +-sme
-      +-smel
-        +-smell
+Addition Successful!
+Deletion Successful!
+Prefix not found!
++-l
+  +-lo
+    +-loo
+      +-look
++-o
+  +-on
+    +-one
 
-ERROR: Keyword not found!
+Deletion Successful!
 Deletion Successful!
