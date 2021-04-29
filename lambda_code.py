@@ -54,7 +54,7 @@ class Trie:
         if res == 0:  # We did not delete the child node, so we will not delete current node either
             return 0
         del node.children[char]
-        if (not node.children) and (not node.word_end):  # After deletion, the current node is a leaf. Mark it for removal
+        if (not node.children) and (not node.word_end):  # After deletion, the current node is a leaf and not the end of a word. Mark it for removal
             return 1
         return 0
 
