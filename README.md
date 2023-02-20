@@ -1,6 +1,6 @@
 # global-trie-cli
 
-Online trie system created with AWS Lambda
+Online trie system created with AWS Lambda. Time limit: 1 week.
 
 
 ## Installation
